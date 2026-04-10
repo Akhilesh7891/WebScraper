@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+coverage
+dist
+.git
+.github
+errors.log
+scraper.log
+product_data.csv
+.local
+.vscode
+.idea

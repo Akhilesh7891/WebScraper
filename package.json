@@ -1,0 +1,38 @@
+{
+  "name": "web-scraper-assessment",
+  "version": "1.0.0",
+  "description": "Production-grade web scraper for Amazon and Walmart product data using TypeScript and Playwright.",
+  "author": {
+    "name": "Akhilesh Chaurasia",
+    "email": "akhileshchaurasia@example.com"
+  },
+  "license": "MIT",
+  "main": "dist/scraper.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "start": "node dist/scraper.js",
+    "dev": "ts-node src/scraper.ts",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint 'src/**/*.ts' --ext .ts",
+    "clean": "rm -rf dist coverage",
+    "postinstall": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "playwright": "^1.44.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.19.39",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

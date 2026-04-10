@@ -1,0 +1,28 @@
+# ─── Dependencies ───────────────────────────────────────────────────────────
+node_modules/
+
+# ─── Build Output ────────────────────────────────────────────────────────────
+dist/
+
+# ─── Test Coverage ───────────────────────────────────────────────────────────
+coverage/
+
+# ─── Runtime Logs ────────────────────────────────────────────────────────────
+errors.log
+scraper.log
+
+# ─── Playwright Artifacts ────────────────────────────────────────────────────
+test-results/
+playwright-report/
+
+# ─── OS / Editor ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
+
+# ─── Environment Variables ───────────────────────────────────────────────────
+.env
+.env.local
